@@ -31,16 +31,13 @@
                 <ul class="slides">
 
                     <li>
-                        <img src="images/home-2.jpg" alt="">
+                        <img src="images/home-10.png" alt="">
                     </li>
                     <li>
-                        <img src="images/gift-1.jpg" alt="">
+                        <img src="images/home-9.jpg" alt="">
                     </li>
                     <li>
                         <img src="images/home-6.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/gif-2.jpg" alt="">
                     </li>
                 </ul>
             </div>

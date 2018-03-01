@@ -22,7 +22,7 @@
             <div class="fh5co-menu-2">
                 <a href="#" data-nav-section="events">Dịch vụ&numsp;</a>
                 <a href="#" data-nav-section="reservation">Liên hệ&numsp;</a>
-                <a href="login.php" data-nav-section="home">Đăng nhập</a>
+                <a href="login.php">Đăng nhập</a>
             </div>
         </div>
 

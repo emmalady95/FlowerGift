@@ -555,11 +555,11 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0103-served-plate_64.png) no-repeat;
+  background: url(../images/feature.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
-  margin-left: -32px;
+  margin-left: -25px;
 }
 #fh5co-featured .fh5co-heading .sub-heading {
   color: #a99c92;
@@ -776,11 +776,11 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  background: url(../images/menu.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
-  margin-left: -32px;
+  margin-left: -25px;
 }
 #fh5co-menus .fh5co-heading .sub-heading {
   color: #a99c92;
@@ -807,7 +807,7 @@ p {
   padding-left: 50px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
-  background: url(../images/0301-pina-colada.png) no-repeat;
+  /*background: url(../images/0301-pina-colada.png) no-repeat;*/
   content: "";
   position: absolute;
   top: -20px;
@@ -819,13 +819,13 @@ p {
   padding-left: 80px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
-  background: url(../images/0302-steak.png) no-repeat;
+  /*background: url(../images/menu.png) no-repeat;*/
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 64px;
-  height: 45px;
+  height: 64px;
 }
 #fh5co-menus .fh5co-food-menu ul {
   padding: 0;
@@ -909,10 +909,10 @@ p {
 }
 #fh5co-events .fh5co-heading .heading:before, #fh5co-events .fh5co-heading .heading::before {
   height: 64px;
-  width: 49px;
+  width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0402-chef.png) no-repeat;
+  background: url(../images/car.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1002,11 +1002,11 @@ p {
   padding-top: 30px !important;
 }
 #fh5co-contact .fh5co-heading .heading:before, #fh5co-contact .fh5co-heading .heading::before {
-  height: 61px;
-  width: 61px;
+  height: 64px;
+  width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0203-coffee-love.png) no-repeat;
+  background: url(../images/contact.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
@@ -1047,10 +1047,11 @@ p {
 
 #fh5co-footer {
   width: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  padding: 7em 0;
+  /*background: rgba(0, 0, 0, 0.9);*/
+  background: url("../images/wood_1.png");
+  padding: 2em 0;
   z-index: 1;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -1321,8 +1322,8 @@ p {
   left: 50%;
   margin-left: -54px;
   margin-top: -125px;
-  width: 104px;
-  height: 104px;
+  width: 120px;
+  height: 110px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1330,16 +1331,16 @@ p {
   border-radius: 50%;
 }
 #fh5co-type h3.with-icon.icon-1:before, #fh5co-type h3.with-icon.icon-1::before {
-  background: url(../images/type-1.png) no-repeat center center;
+  background: url(../images/year.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
-  background: url(../images/type-2.png) no-repeat center center;
+  background: url(../images/customer.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-3:before, #fh5co-type h3.with-icon.icon-3::before {
-  background: url(../images/type-3.png) no-repeat center center;
+  background: url(../images/bill.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-4:before, #fh5co-type h3.with-icon.icon-4::before {
-  background: url(../images/type-4.png) no-repeat center center;
+  background: url(../images/coast.png) no-repeat center center;
 }
 #fh5co-type p {
   color: rgba(255, 255, 255, 0.7);
@@ -1354,4 +1355,42 @@ p {
   padding-bottom: 40px;
 }
 
+
+.funfacts {
+  /*background-image: url(../images/funfact4.png);*/
+  /*background-color: #000;*/
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 0;
+  color: rgba(255, 255, 255, 255);
+}
+.funfacts .funfact {
+  font-family: "Oswald";
+  text-align: center;
+  color: rgba(255, 255, 255, 255);
+}
+.funfacts .funfact .st-funfact-icon {
+  font-size: 42px;
+  line-height: 90px;
+}
+.funfacts .funfact .st-funfact-counter {
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 3px;
+}
+.funfacts .funfact .funfact-title {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.funfacts .funfact:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #4ecdc4;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */

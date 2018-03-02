@@ -6,6 +6,15 @@
  * Time: 13:16
  */
 ?>
+<?php
+    @session_start();
+    require('assets/connect-db.php');
+    mysql_query("SET NAMES 'utf8'");
+    if(isset($_SESSION['error'])){
+        echo "<script>alert('{$_SESSION['error']}');</script>";
+        unset($_SESSION['error']);
+    }
+?>
 
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
